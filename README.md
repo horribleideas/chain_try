@@ -34,6 +34,15 @@ require 'try_chain'
 ```
 > => "RAB OOF"
 
+or
+
+```ruby
+require 'try_chain'
+
+"Foo Bar".try_chain(:downcase, :reverse, :this_method_doesnt_exist, :some_other_thing)
+```
+> => nil
+
 ## Contributing
 
 1. Fork it ( https://github.com/horribleideas/try_chain/fork )
