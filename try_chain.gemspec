@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'try_chain/version'
+require 'chain_try/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "try_chain"
-  spec.version       = TryChain::VERSION
+  spec.name          = "chain_try"
+  spec.version       = ChainTry::VERSION
   spec.authors       = ["Kale Worsley"]
   spec.email         = ["kale@worsley.co.nz"]
-  spec.summary       = %q{Adds `try_chain` method to all the things.}
-  spec.description   = %q{Adds `try_chain` method to all the things. It's like `try` and `stub_chain` had babies!}
+  spec.summary       = %q{Adds `chain_try` method to all the things.}
+  spec.description   = %q{Adds `chain_try` method to all the things. It's like `try` and `stub_chain` had babies!}
   spec.homepage      = ""
   spec.license       = "MIT"
 

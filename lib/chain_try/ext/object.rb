@@ -1,5 +1,5 @@
 class Object
-  def try_chain(*methods)
+  def chain_try(*methods)
     result = self
 
     while method = methods.shift
